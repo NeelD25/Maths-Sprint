@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">SSC Speed Math</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_results">Results</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="header_title">SSC Speed Math</string>
+    <string name="header_subtitle">Master calculations for government exams</string>
+    <string name="daily_quiz_title">Daily Quiz</string>
+    <string name="daily_quiz_subtitle">Challenge yourself with today\'s problems</string>
+    <string name="start_daily_challenge">Start Daily Challenge</string>
+    <string name="mixed_practice">Mixed Practice</string>
+    <string name="result_history">RESULT HISTORY</string>
+    
+    <!-- Operations -->
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="squares">Squares</string>
+    <string name="cubes">Cubes</string>
+    
+    <!-- Quiz Screen -->
+    <string name="question_format">%1$d/%2$d</string>
+    <string name="timer_format">%ds</string>
+    <string name="your_answer_hint">Your answer</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="correct_answer_format">Correct answer: %d</string>
+    <string name="quiz_complete">Quiz Complete!</string>
+    <string name="next_question">Next question in 2s...</string>
+    
+    <!-- Results Screen -->
+    <string name="performance_analytics">Performance Analytics</string>
+    <string name="overall_performance">Overall Performance</string>
+    <string name="total_quizzes">Total Quizzes</string>
+    <string name="avg_accuracy">Avg Accuracy</string>
+    <string name="best_streak">Best Streak</string>
+    <string name="practice_time">Practice Time</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="recent_quizzes">Recent Quizzes</string>
+    <string name="achievements">Achievements</string>
+    <string name="accuracy">Accuracy</string>
+    
+    <!-- Profile Screen -->
+    <string name="profile_settings">Profile &amp; Settings</string>
+    <string name="aspiring_student">Aspiring Student</string>
+    <string name="govt_exam_aspirant">Government Exam Aspirant</string>
+    <string name="target_exam">Target Exam</string>
+    <string name="practice_settings">Practice Settings</string>
+    <string name="daily_reminders">Daily Reminders</string>
+    <string name="daily_reminders_desc">Get notified for daily practice</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="sound_effects_desc">Audio feedback for answers</string>
+    <string name="study_plan">Study Plan</string>
+    <string name="questions_per_day">Questions/Day</string>
+    <string name="minutes_per_day">Minutes/Day</string>
+    <string name="recommended_goal">Your recommended daily practice goal</string>
+    <string name="export_progress">Export Progress Report</string>
+    <string name="reset_data">Reset All Data</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="app_version">SSC Speed Math v1.0.0</string>
+    <string name="made_for_aspirants">Made for Indian Government Exam Aspirants</string>
+    
+    <!-- Dialog -->
+    <string name="number_range_title">%s Practice</string>
+    <string name="configure_session">Configure your practice session</string>
+    <string name="number_of_questions">Number of Questions:</string>
+    <string name="difficulty_level">Difficulty Level:</string>
+    <string name="custom_range">Custom Range:</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="custom_count_hint">Custom count</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_practice">Start Practice</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="expert">Expert</string>
+    
+    <!-- Exam Types -->
+    <string-array name="exam_types">
+        <item>SSC CGL</item>
+        <item>SSC CHSL</item>
+        <item>SSC MTS</item>
+        <item>IBPS PO</item>
+        <item>IBPS Clerk</item>
+        <item>SBI PO</item>
+        <item>SBI Clerk</item>
+        <item>Railways</item>
+        <item>Other</item>
+    </string-array>
+    
+    <!-- Validation Messages -->
+    <string name="error_max_greater_than_min">Maximum value must be greater than minimum value</string>
+    <string name="error_question_count_positive">Number of questions must be greater than 0</string>
+</resources>

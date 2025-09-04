@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "SSC Speed Math",
+    "slug": "ssc-speed-math",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sscspeedmath.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "GADApplicationIdentifier": "ca-app-pub-xxxxxxxxxxxxx~yyyyyyyyyy"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.sscspeedmath.app",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "android_app_id": "ca-app-pub-xxxxxxxxxxxxx~yyyyyyyyyy",
+          "ios_app_id": "ca-app-pub-xxxxxxxxxxxxx~yyyyyyyyyy"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
+  }
+}
